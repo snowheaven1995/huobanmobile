@@ -23,3 +23,19 @@ def mobile(request):
 
 def reg(request):
     return render(request, 'mobile_reg.html')
+
+
+def welcome(request):
+    return render(request, 'mobile_welcome.html')
+
+
+def pesDemo(request):
+    return render(request, 'mobile_pesDemo.html')
+
+
+def honer(request):
+    return render(request, 'mobile_honer.html')
+
+
+def history(request):
+    return render(request, 'mobile_history.html')

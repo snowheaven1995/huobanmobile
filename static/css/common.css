@@ -245,3 +245,8 @@ h2{
     height: 120px;
 
 }
+@media screen and (max-width: 414px) {
+    .region{
+        padding: 40px 47px 60px 47px;
+    }
+}
