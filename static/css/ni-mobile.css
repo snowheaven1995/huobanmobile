@@ -150,13 +150,49 @@ div.welcomeImgBox img{
 
 
 
-
-
-
-
-
-
-
-
-
+/*荣誉资质*/
+.mobile_honerBg{
+	background: url(/static/image/honer_banner.png) no-repeat;
+	width: 100%;
+	height: 200px;
+	background-size: 100%;
+}
+.mobile_honer_content{
+	width: 90%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.mobile_honer_item{
+	width: 48%;
+	float: left;
+	margin-bottom: 40px;
+}
+.mobile_honer_item p{
+	text-align: center;
+}
+.mobile_honer_item:nth-child(odd)
+{
+	margin-right: 4%
+}
+.mobile_honer_item .img{
+	width: 100%;
+	
+}
+.mobile_honer_item .img img{
+	width: 100%;
+}
+/*汇成历史*/
+.mobile_historyBg{
+	background: url(/static/image/history_banner.png) no-repeat;
+	width: 100%;
+	height: 200px;
+	background-size: 100%;
+}
+.mobile_historyContent{
+	width: 80%;
+	height: 2200px;
+	margin: 50px auto 20px;
+	background:url(/static/image/history_img.png) no-repeat;
+	background-size: 100%;
+}
 
