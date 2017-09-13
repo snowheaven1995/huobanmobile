@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="/static/css/common.css">
+    {% block header-css %}
+    {% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    {% block title %}
+        <title>{{ SITE_NAME }}{{ TITLE_CONNECTOR }}让跨境知识产权保护更简单</title>
+    {% endblock %}
+</head>
+<body>
+    <div class="bgDiv"></div>
+    <div class="rightNav">
+        <div class="nav_btn act"></div>
+        <div class="clear"></div>
+        <p class="first_p">首页</p>
+        <p>伙伴计划</p>
+        <p>云端系统</p>
+        <p>汇诚简介</p>
+        <p>汇诚历史</p>
+        <p>荣誉资质</p>
+        <p>加入伙伴</p>
+    </div>
+    <div class="header">
+        <svg class="icon " aria-hidden="true">
+            <use xlink:href="#icon-HCHB"></use>
+        </svg>
+        <div class="nav_btn"></div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <div class="footer common_font">
+        <p class="contact">联系我们</p>
+        <p>电话：+86 0574-27828899</p>
+        <p>传真：+86 0574-27988333</p>
+        <p>邮箱：nihao@huichenghuoban.com</p>
+        <div class="line"></div>
+        <div class="to_somewhere common_font">
+            <div class="somewhere"><p>伙伴计划</p><p>汇诚简介</p></div>
+            <div class="somewhere"><p>云端系统</p><p>汇诚历史</p></div>
+            <div class="somewhere"><p>加入计划</p><p>荣誉资质</p></div>
+        </div>
+        <div class="line"></div>
+        <p >版权所有-<br>浙江汇诚知识产权代理有限公司 - 浙ICP备11009832号-10</p>
+    </div>
+    <script type="text/javascript" src="//at.alicdn.com/t/font_346631_6kf7k1tn0ch7u8fr.js"></script>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/mobile_forword.js"></script>
+    {% block footer-script %}
+    {% endblock %}
+</body>
+</html>

@@ -24,4 +24,7 @@ urlpatterns = [
     url(r'^mobile_reg$', view.reg),
     url(r'^mobile_welcome$', view.welcome),
     url(r'^mobile_pesDemo$', view.pesDemo),
+    url(r'^first$', view.first),
+    url(r'^partner$', view.moblie_partner),
+    url(r'^mobile_reg', view.reg),
 ]
