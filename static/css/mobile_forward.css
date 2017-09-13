@@ -1,32 +1,17 @@
 
 /* */
-*{margin:0;padding:0}
-h2{
-    font-weight: normal;
-}
-.clear{
-    clear: both;
-}
-.region{
-    width: 100%;
-    padding: 50px 57px 60px 57px;
-    box-sizing: border-box;
 
-}
+
 .first_region{
-    width: 100%;
-    height: 516px;
     background: url('../image/first_page_back.png') no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 22px;
-    box-sizing: border-box;
 }
 .partner_region{
-   height: 712px;
+   /*height: 712px;*/
 }
 .cloud_region{
-    height: 1033px;
+    /*height: 1033px;*/
     background-color: #F1F8FF;
     overflow: hidden;
 }
@@ -35,7 +20,7 @@ h2{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 370px;
+
 }
 .icon{
     fill: #FFFFFF;
@@ -56,37 +41,7 @@ h2{
     background-size: cover;
     background-position: center;
 }
-.bgDiv{
-    width: 100%;
-    height: 100%;
-    background-color: #FFFFFF;
-    opacity: .98;
-    position:fixed;
-    display: none;
-    z-index: 99;
-    bottom: 0;
-}
-.rightNav{
-    width: 100%;
-    /*max-width: 400px;*/
-    height: 100%;
-    background-color: #fff;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    opacity: .98;
-    right: -100%;
-    padding: 25px;
-    box-sizing: border-box;
-}
 
-.rightNav p{
-    margin-top: 40px;
-    text-align: center;
-}
-.rightNav .first_p{
-    margin-top: 0;
-}
 .logo{
     width: 120px;
     margin: 41px auto 24px auto;
@@ -109,34 +64,9 @@ h2{
     font-size: 12px;
     margin-top: 10px;
 }
-.btn_area{
-    width:80%;
-    margin: 50px auto;
-}
-.btn{
 
-    height: 50px;
-    border-radius: 2px;
-    background-color: #FFFFFF;
-    margin-bottom: 16px;
-    text-align: center;
-    line-height: 50px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-.to_huoban{
-    background-color: #5F69D8;
-    color: #FFFFFF;
-    margin-top: 40px;
-}
-.to_register{
-    color: #5960D6;
-}
-.to_show{
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    background-color:rgba(255,255,255,.05)
-}
+
+
 .region_title{
     text-align: center;
 }
@@ -146,84 +76,9 @@ h2{
     margin-bottom: 10px;
     letter-spacing: 8px;
 }
-.common_font{
-    font-size: 12px;
-    color: #666666;
-}
-.black{
-    width: 100%;
-    height: 40px;
-}
-.item{
-    width: 112px;
 
-    text-align: center;
-}
-.item_pic{
-    background: url('../image/free_look.png') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    width: 85px;
-    height: 84px;
-    margin: 0 auto;
 
-    /*background-size: 100% 100%;*/
-}
-.item h2{
-    font-size: 18px;
-    margin: 20px 0 6px 0;
-}
-.free_look{
-    float: left;
-}
-.globe_service{
-    float: right;
-}
-.expert{
-    float: left;
 
-}
-.platform{
-    float: right;
-
-}
-.globe_service_pic{
-    background: url('../image/globe_server.png') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-.expert_pic{
-    background: url('../image/expert.png') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-.platform_pic{
-    background: url('../image/platform.png') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-.free_look_h2{
-    color: #F6A18E;
-}
-.expert_h2{
-    color: #94D0A8;
-}
-.platform_h2{
-    color: #B1B5FF;
-}
-.globe_service_h2{
-    color: #FAD160;
-}
-.region_btn{
-    width: 100%;
-    height: 50px;
-    border-radius: 2px;
-
-    text-align: center;
-    line-height: 50px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
 .cloud_content{
     position: relative;
     height: 770px;
