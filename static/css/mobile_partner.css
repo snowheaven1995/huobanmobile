@@ -2,7 +2,7 @@
     background: url('../image/partner.png') no-repeat;
     background-size: cover;
     background-position: center;
-
+    color: rgba(255,255,255,.8);
 }
 .mask {
     margin-top: 15px;
@@ -25,5 +25,41 @@
     background-color: rgba(95,105,216,.5);
 }
 .region2{
-    min-height: 300px;
+    min-height: 975px;
+}
+.region3{
+    height: 575px;
+    background: url('../image/join_back.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+}
+.location1{
+    margin-left: 150px;
+}
+.location2{
+    margin-left: 72px;
+}
+.supplier{
+    width: 100%;
+    height: 48px;
+    background: url('../image/supplier.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.effective{
+    width: 100%;
+    height: 56px;
+    background: url('../image/efficent_group.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.region3 p{
+    color: rgba(255,255,255,.8);
+    text-align: left;
+}
+.region3 h2{
+    font-size: 30px;
+    font-family: "Songti SC";
 }

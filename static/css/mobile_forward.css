@@ -15,13 +15,7 @@
     background-color: #F1F8FF;
     overflow: hidden;
 }
-.join_region{
-    background: url('../image/join_back.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
 
-}
 .icon{
     fill: #FFFFFF;
     width: 101px;
@@ -36,12 +30,6 @@
     background-position: center;
     float: right;
 }
-.act{
-    background: url('../image/nav_btn.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .logo{
     width: 120px;
     margin: 41px auto 24px auto;

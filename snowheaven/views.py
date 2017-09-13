@@ -5,8 +5,16 @@ def first(request):
     return render(request, 'mobile_first.html')
 
 
-def moblie_partner(request):
+def mobile_partner(request):
     return render(request, 'mobile_partner.html')
+
+
+def mobile_cloud(request):
+    return render(request, 'mobile_cloud.html')
+
+
+def mobile_introduction(request):
+    return render(request, 'mobile_introduction.html')
 
 
 def mobile(request):
