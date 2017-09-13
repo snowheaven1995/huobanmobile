@@ -21,5 +21,7 @@ import snowheaven.views as view
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^mobile$', view.mobile),
-    url(r'^mobile_reg', view.reg),
+    url(r'^mobile_reg$', view.reg),
+    url(r'^mobile_welcome$', view.welcome),
+    url(r'^mobile_pesDemo$', view.pesDemo),
 ]
