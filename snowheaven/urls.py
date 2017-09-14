@@ -20,15 +20,13 @@ import snowheaven.views as view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^mobile$', view.mobile),
+    url(r'^$', view.first),
     url(r'^mobile_reg$', view.reg),
     url(r'^mobile_welcome$', view.welcome),
     url(r'^mobile_pesDemo$', view.pesDemo),
-    url(r'^first$', view.first),
-
-    url(r'^partner$', view.mobile_partner),
+    url(r'^mobile_partner$', view.mobile_partner),
     url(r'^mobile_reg$', view.reg),
     url(r'^mobile_honer$', view.honer),
     url(r'^mobile_history$', view.history),
-    url(r'^cloud', view.mobile_cloud),
-    url(r'^introduction', view.mobile_introduction)]
+    url(r'^mobile_cloud', view.mobile_cloud),
+    url(r'^mobile_introduction', view.mobile_introduction)]

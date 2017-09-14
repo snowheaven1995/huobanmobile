@@ -119,30 +119,31 @@
 }
 .block_right{
     float: left;
-    padding: 10px 0;
+    padding: 5px 0;
+    margin-left: 10px;
 }
 .cloud_text1{
     position: absolute;
-    width: 110px;
+    width: 130px;
     top: 10px;
         left: 127px;
 }
 .cloud_text2{
     position: absolute;
     top: 253px;
-    width: 110px;
+    width: 130px;
     left: 20px;
 }
 .cloud_text3{
     position: absolute;
     top: 375px;
-    width: 72px;
+    width: 85px;
     right: 0;
 }
 .cloud_text4{
     position: absolute;
     top: 660px;
-    width: 110px;
+    width: 130px;
     left: 20px;
 }
 .time_cloud{

@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="/static/css/common.css">
     {% block header-css %}
     {% endblock %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
     {% block title %}
         <title>{{ SITE_NAME }}{{ TITLE_CONNECTOR }}让跨境知识产权保护更简单</title>
     {% endblock %}
@@ -14,15 +15,19 @@
 <body>
     <div class="bgDiv"></div>
     <div class="rightNav">
-        <div class="nav_btn act"></div>
+        <div class=" act"></div>
         <div class="clear"></div>
-        <p class="first_p">首页</p>
-        <p>伙伴计划</p>
-        <p>云端系统</p>
-        <p>汇诚简介</p>
-        <p>汇诚历史</p>
-        <p>荣誉资质</p>
-        <p>加入伙伴</p>
+        <ul class="index">
+            <li id="to_index"><span>首页</span></li>
+            <li id="to_partner"><span>伙伴计划</span></li>
+            <li id="to_cloud"><span>云端系统</span></li>
+            <li id="to_introduction"><span>汇诚简介</span></li>
+            <li id="to_history"><span>汇诚历史</span></li>
+            <li id="to_honer"><span>荣誉资质</span></li>
+            <li id="to_reg"><span>加入伙伴</span></li>
+        </ul>
+
+
     </div>
     <div class="header">
         <svg class="icon " aria-hidden="true">
@@ -39,12 +44,13 @@
         <p>邮箱：nihao@huichenghuoban.com</p>
         <div class="line"></div>
         <div class="to_somewhere common_font">
-            <div class="somewhere"><p>伙伴计划</p><p>汇诚简介</p></div>
-            <div class="somewhere"><p>云端系统</p><p>汇诚历史</p></div>
-            <div class="somewhere"><p>加入计划</p><p>荣誉资质</p></div>
+            <div class="somewhere"> <a href="/mobile_partner"><p>伙伴计划</p></a> <a href="/mobile_introduction"><p>汇诚简介</p></a></div>
+            <div class="somewhere"><a href="/mobile_cloud"><p>云端系统</p></a><a href="/mobile_history"><p>汇诚历史</p></a></div>
+            <div class="somewhere"><a href="/mobile_reg"><p>加入伙伴</p></a><a href="/mobile_honer"><p>荣誉资质</p></a></div>
         </div>
         <div class="line"></div>
-        <p >版权所有-<br>浙江汇诚知识产权代理有限公司 - 浙ICP备11009832号-10</p>
+        <p class="hc_copyright">版权所有-浙江汇诚知识产权代理有限公司 <br><a href="http://www.miitbeian.gov.cn"><span style='color:#FFFFFF'>浙ICP备11009832号-10</span></a></p>
+
     </div>
     <script type="text/javascript" src="//at.alicdn.com/t/font_346631_6kf7k1tn0ch7u8fr.js"></script>
     <script src="/static/js/jquery.min.js"></script>

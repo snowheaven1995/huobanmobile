@@ -58,7 +58,7 @@ $(function(){
 	var handleError = function(msg,status){
 		var errEl = $('.regError');
 		if(status){
-			errEl.text(msg)
+			errEl.text(msg);
 			errEl.stop().animate({'height':'30px'})
 		}else{
 			errEl.stop().animate({'height':'0'})
@@ -85,7 +85,7 @@ $(function(){
 			                        "telephone":n_telephone,
 			                        "email":n_email,
 			                        "company":n_company,
-			                        "problem":n_problem,
+			                        "problem":n_problem
 			                    },//数据，这里使用的是Json格式进行传输  
 			                    success : function(result) {//返回数据根据结果进行相应的处理  
 			                      handlePesDemoSuccess(result)

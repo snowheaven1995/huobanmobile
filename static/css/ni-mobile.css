@@ -1,30 +1,29 @@
 
-
-
-
-
 .mobileReg_bg{
 	width: 100%;
 	height: 100%;
-	/*position: fixed;*/
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	padding: 1px;
 	background: #EEEEEE;
 	box-sizing: border-box;
+	position: fixed;
 }
 .mobileReg_Logo{
 	font-size: 150px;
 	display: block;
-	margin:70px auto 0px ;
+	margin:0 auto;
 	color: #666666;
+}
+.mobile_Content{
+	position: relative;
+	width: 100%;
 }
 .mobile_inputGroup{
 	width: 90%;
 	margin: 0 auto;
 }
 .mobile_inputGroup input{
+	border-radius: 2px;
+	border: none;
 	width: 100%;
 	height: 40px;
 	text-indent: 10px;
@@ -40,10 +39,10 @@
 .mobile_inputGroup .input_box span{
 	position: absolute;
 	width: 40px;
-	height: 44px;
-	right: -4px;
+	height: 40px;
+	right: 0;
 	color: red;
-	line-height: 44px;
+	line-height: 40px;
 	background: white;
 	text-align: center;
 
@@ -133,12 +132,12 @@ div.welcomeImgBox img{
 	height: 40px;
 	text-indent: 10px;
 	color: #999;
-	margin-bottom: 5px;
-	outline: none;
 	font-size: 16px;
 	font-weight: lighter;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	border:none;
+	outline: none;
 }
 .pesDemo_inputGroup textarea{
 	width: 100%;
@@ -146,9 +145,15 @@ div.welcomeImgBox img{
 	margin-top: 10px;
 	margin-bottom: 20px;
 	outline: none;
+	border:none;
 }
 
-
+.mobilepesDemo_bg{
+	width: 100%;
+	position: absolute;
+	background: #eee;
+	top:0;
+}
 
 /*荣誉资质*/
 .mobile_honerBg{
@@ -189,8 +194,8 @@ div.welcomeImgBox img{
 	background-size: 100%;
 }
 .mobile_historyContent{
-	width: 80%;
-	height: 2200px;
+	width: 100%;
+	height: 1465px;
 	margin: 0 auto;
 	background:url(/static/image/history_img.png) no-repeat;
 	background-size: 100%;
