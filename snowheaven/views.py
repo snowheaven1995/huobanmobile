@@ -25,6 +25,10 @@ def reg(request):
     return render(request, 'mobile_reg.html')
 
 
+def login(request):
+    return render(request, 'mobile_log_in.html')
+
+
 def welcome(request):
     return render(request, 'mobile_welcome.html')
 

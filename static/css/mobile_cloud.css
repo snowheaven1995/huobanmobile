@@ -28,27 +28,27 @@
     width: 100%;
     height: 181px;
     background: url('../image/c_procedure1.png') no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }
 .c_procedure2{
     width: 100%;
     height: 181px;
     background: url('../image/c_procedure2.png') no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }
 .c_procedure3{
     width: 100%;
     height: 181px;
     background: url('../image/c_procedure3.png') no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }
 .c_procedure4{
     width: 100%;
     height: 181px;
     background: url('../image/c_procedure4.png') no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
 }

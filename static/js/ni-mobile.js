@@ -1,4 +1,44 @@
 $(function(){
+    $('.btn_reg').click(function () {
+       window.location.href = 'mobile_reg' ;
+    });
+    $('.mobileReg_Logo').click(function () {
+       window.location.href = '/'
+    });
+	$('.btn_login').click(function () {
+			var username = $("input[name='username']").val(),
+			password = $("input[name='password']").val();
+			if($.trim(username) == ''||$.trim(password)==''){
+			    handleError("用户名或密码不能为空",true);
+            }
+            else{
+			    $.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});
+                $.ajax({
+                    type: "POST",  //提交方式
+                    url: 'http://passport.huichengip.com/auth/user_login',//路径
+                    data: {
+                        "username": username,
+                        "password": password,
+                        "platform": 2,
+                        "login_type":"user"
+
+                    },//数据，这里使用的是Json格式进行传输
+                    success: function (result) {//返回数据根据结果进行相应的处理
+                        console.log('rev is ',JSON.stringify(result))
+                        var token = result.data.hcip_token;
+                        var code = result.code;
+                        console.log(token);
+                        var url = encodeURI('http://ht.huichenghuoban.com/zhuyi?hctoken='+token);
+                        if(code ==200){
+                            window.location.href = 'http://passport.huichengip.com/auth/auth_login_api/?hctoken='+token+'&auth_url='+url;
+                        }
+
+
+
+                    }
+                });
+            }
+    });
 	//点击注册后的事件
 	$('.reg_btn').click(function(){
 		var n_username = $("input[name='username']").val(),
@@ -59,11 +99,14 @@ $(function(){
 		var errEl = $('.regError');
 		if(status){
 			errEl.text(msg);
-			errEl.stop().animate({'height':'30px'})
+			errEl.stop().animate({'height':'30px'});
+			setTimeout(hidden,3000);
 		}else{
-			errEl.stop().animate({'height':'0'})
+			hidden()
 		}
-		
+		function hidden() {
+			errEl.stop().animate({'height':'0'})
+        }
 	};
 	//处理点击预约演示提交的事件
 	$(".pesDemo_btn").click(function(){

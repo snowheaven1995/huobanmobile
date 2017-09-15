@@ -30,10 +30,17 @@
 
     </div>
     <div class="header">
-        <svg class="icon " aria-hidden="true">
+        <div class="nav_btn"></div>
+        <svg class="icon user" aria-hidden="true">
+            <use xlink:href="#icon-yonghu"></use>
+        </svg>
+        <div class="logo_warp">
+            <svg class="hclogo " aria-hidden="true">
             <use xlink:href="#icon-HCHB"></use>
         </svg>
-        <div class="nav_btn"></div>
+        </div>
+
+
     </div>
     {% block content %}
     {% endblock %}
@@ -44,15 +51,29 @@
         <p>邮箱：nihao@huichenghuoban.com</p>
         <div class="line"></div>
         <div class="to_somewhere common_font">
-            <div class="somewhere"> <a href="/mobile_partner"><p>伙伴计划</p></a> <a href="/mobile_introduction"><p>汇诚简介</p></a></div>
-            <div class="somewhere"><a href="/mobile_cloud"><p>云端系统</p></a><a href="/mobile_history"><p>汇诚历史</p></a></div>
-            <div class="somewhere"><a href="/mobile_reg"><p>加入伙伴</p></a><a href="/mobile_honer"><p>荣誉资质</p></a></div>
+            <div class="somewhere">
+                <a href="/mobile_partner"><p>伙伴计划</p></a>
+                <div class="blank_half"></div>
+                <div class="blank_quarter"></div>
+                <a href="/mobile_introduction"><p>汇诚简介</p></a>
+            </div>
+            <div class="somewhere">
+                <a href="/mobile_cloud"><p>云端系统</p></a>
+                <div class="blank_half"></div>
+                <div class="blank_quarter"></div>
+                <a href="/mobile_history"><p>汇诚历史</p></a>
+            </div>
+            <div class="somewhere">
+                <a href="/mobile_reg"><p>加入伙伴</p></a>
+                <div class="blank_half"></div>
+                <div class="blank_quarter"></div>
+                <a href="/mobile_honer"><p>荣誉资质</p></a></div>
         </div>
         <div class="line"></div>
         <p class="hc_copyright">版权所有-浙江汇诚知识产权代理有限公司 <br><a href="http://www.miitbeian.gov.cn"><span style='color:#FFFFFF'>浙ICP备11009832号-10</span></a></p>
 
     </div>
-    <script type="text/javascript" src="//at.alicdn.com/t/font_346631_6kf7k1tn0ch7u8fr.js"></script>
+    <script type="text/javascript" src="//at.alicdn.com/t/font_346631_4f6kgd3n07htcsor.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/mobile_forword.js"></script>
     {% block footer-script %}

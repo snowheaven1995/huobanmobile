@@ -29,20 +29,20 @@ $(function () {
     $('.nav_btn').click(function () {
         $('.bgDiv').css({
             visibility: "visible",
-            opacity: '.9',
+            opacity: '1',
             transition: "all .5s"
         });
         $('.rightNav').css({
-            right: "0px",
-            transition: "right .2s"
+            left: "0px",
+            transition: "left .2s"
         });
 
 
     });
     $('.act').click(function () {
         $('.rightNav').css({
-            right: "-100%",
-            transition: "right .5s"
+            left: "-100%",
+            transition: "left .5s"
         });
          $('.bgDiv').css({
             visibility: "hidden",
@@ -78,7 +78,7 @@ $(function () {
     });
     $('#to_history').find('span').click(function () {
          $(this).addClass('active');
-         setTimeout(toHoner,500)
+         setTimeout(toHistory,500)
     });
     function toHoner(){
            window.location.href='mobile_honer'
@@ -101,7 +101,9 @@ $(function () {
     function toHistory(){
            window.location.href='mobile_history'
     }
-
+    $('.user').click(function () {
+        window.location.href='mobile_login'
+    });
     
     
     

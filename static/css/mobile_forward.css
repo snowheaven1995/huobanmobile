@@ -16,20 +16,7 @@
     overflow: hidden;
 }
 
-.icon{
-    fill: #FFFFFF;
-    width: 101px;
-    height: 20px;
-    float: left;
-}
-.nav_btn{
-    width: 23px;
-    height: 15px;
-    background: url('../image/nav_btn2.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-    float: right;
-}
+
 .logo{
     width: 120px;
     margin: 41px auto 24px auto;

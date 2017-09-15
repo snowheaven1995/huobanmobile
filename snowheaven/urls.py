@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', view.first),
     url(r'^mobile_reg$', view.reg),
+    url(r'^mobile_login$', view.login),
     url(r'^mobile_welcome$', view.welcome),
     url(r'^mobile_pesDemo$', view.pesDemo),
     url(r'^mobile_partner$', view.mobile_partner),
